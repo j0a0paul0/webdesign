@@ -1,0 +1,53 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(160, 160, 160);
+}
+#menu{
+    display: flex;
+}
+#a1{
+    background-color: black;
+    padding: 10px;
+}
+#a2{
+    background-color: black;
+    padding: 10px;
+}
+#a3{
+    background-color: black;
+    padding: 10px;
+}
+#a4{
+    background-color: black;
+    padding: 10px;
+}
+#a5{
+    background-color: black;
+    padding: 10px;
+}
+#a6{    
+    background-color: black;
+    padding: 10px;
+}
+#a7{
+    background-color: black;
+    padding: 10px;
+}
+#a8{
+    background-color: black;
+    padding: 10px;
+}
+#a9{  
+    background-color: black;
+    padding: 10px;
+}
+#a10{
+    background-color: black;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(250, 250, 250);
+}
