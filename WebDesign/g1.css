@@ -1,0 +1,15 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+}
+#barra{
+    display: flex;
+    background-color: rgb(190, 24, 24);
+    color: white;
+}
