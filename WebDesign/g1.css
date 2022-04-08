@@ -3,13 +3,107 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+
+}
+#header{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+#a1,#a2,#a3,#a4,#a5,#a6,#g1{
+    font-family: sans-serif;
+    font-weight: bold;
 }
 #menu{
     display: flex;
-    background-color: rgb(245, 245, 245);
+}
+#menu2{
+    display: flex;
+}
+#a1 {
+    color: rgb(28, 28, 236);
+    padding: 5px;
+}
+#a1:hover{
+    color:  rgb(120, 120, 221);
+}
+#a2{
+    color: rgb(190, 24, 24);
+    padding: 5px;
+}
+#a2:hover{
+    border-top: 10px solid;
+}
+#a3{
+    color: green;
+    padding: 5px;
+}
+#a3:hover{
+    border-top: 10px solid;
+}
+#a4{
+    color: orangered;
+    padding: 5px;
+}
+#a4:hover{
+    border-top: 10px solid;
+}
+#a5{
+    color: rgb(185, 22, 76);
+    padding: 5px;
+}
+#a5:hover{
+    border-top: 10px solid;
+}
+#a6{
+    color: blue;
+    padding: 5px;
+}
+#a6:hover{
+    border-top: 10px solid;
+}
+#a7{
+    color: gray;
+    padding: 5px;
+}
+#a7:hover{
+    color: blue;
+}
+#botao:hover{
+    color: blue;
+}
+.icon{
+    color: white;
+}
+#barra .icon{
+    display: none;
 }
 #barra{
     display: flex;
     background-color: rgb(190, 24, 24);
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 35px;
+}
+#g1{
+    color: white;
+}
+@media (max-width:900px){
+    #a6{
+        display: none;
+    }
+    #buscar{
+        display: none;
+    }
+    #barra .icon{
+        display: flex;
+    }
+}
+@media (max-width:746px){
+    #header{
+        display: none;
+    }
 }
