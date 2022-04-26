@@ -1,0 +1,9 @@
+ul,a,body{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#divex{
+    width: 64px;
+}
